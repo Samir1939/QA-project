@@ -1,0 +1,18 @@
+{
+    "validContact":{
+        "firstName":"John",
+        "lastName":"Doe",
+        "dateOfBirth":"1990-06-30",
+        "email":"john.doe@gmail.com",
+        "phone":"9885855858",
+        "address":"Address1",
+        "city":"City1",
+        "state":"State1",
+        "country":"Nepal",
+        "postal":"123456"
+    },
+    "contactEdit":{
+        "firstName":"Hello"
+    }
+}
+
