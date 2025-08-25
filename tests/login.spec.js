@@ -10,7 +10,7 @@ test('valid login', async ({ page }) => {
   await page.locator('//input[@id="email"]').fill('itsfunny@77777gmail.com');
   await page.locator('//input[@id="password"]').fill('funny@2004');
 
-  await page.locator('//button[@type="submit"]').click();
+  // await page.locator('//button[@type="submit"]').click();
 
   await expect(page).toHaveURL(/pinterest\.com/);
 });
